@@ -1,4 +1,4 @@
-#Omnifood Responsive Website 
+##Omnifood Responsive Website 
 
 A responsive food delivery landing page built using HTML, CSS, and Bootstrap as part of NTI Mean Stack training tasks.
 
@@ -21,5 +21,4 @@ A responsive food delivery landing page built using HTML, CSS, and Bootstrap as 
 This project was created for practice and training purposes during the NTI Mean Stack program.
 
 ##Author 
-
 Hager Tamer
