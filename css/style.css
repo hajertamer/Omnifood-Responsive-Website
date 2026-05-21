@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(248, 236, 211);
+
+  nav img {
+    width: 200px;
+  }
+  nav ul {
+    font-weight: 700;
+
+    li .btn {
+      background-color: rgb(249, 133, 0);
+      color: white;
+      font-weight: 700;
+    }
+  }
+
+  .head-section {
+    padding: 5rem 0;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+
+    .description {
+      font-size: 1.1rem;
+      color: rgb(118, 118, 118);
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .btn-custom {
+      border: 2px solid #fd6f07;
+      color: #fd6f07;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 7px;
+      transition: all 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(253, 111, 7, 0.3);
+    }
+
+    .image-collage img {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .stats-section {
+      margin-top: 3rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .profile-avatars {
+      display: flex;
+      align-items: center;
+    }
+
+    .profile-avatars img {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-left: -12px;
+      object-fit: cover;
+    }
+
+    .profile-avatars img:first-child {
+      margin-left: 0;
+    }
+
+    .stats-text {
+      font-size: 1rem;
+      font-weight: 600;
+      color: black;
+    }
+
+    .stats-number {
+      color: #fd6f07;
+      font-weight: 700;
+    }
+  }
+}
+
+.sec-1 {
+  background-color: #f8fafb;
+  padding: 10%;
+  margin: auto;
+}
+
+.section-label {
+  color: #f56a07;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.main-heading {
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.step-number {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #d5d7dd;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.step-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.step-description {
+  color: #80848c;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.phone-mockup {
+  max-width: 280px;
+  width: 100%;
+  border-radius: 12.7%;
+  box-shadow: 0 20px 25px 5px rgba(0, 0, 0, 0.229);
+  display: block;
+  margin: 0 auto;
+}
+
+.step-section {
+  padding: 4rem 0;
+}
+
+.meal-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  height: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.266);
+  padding: 0;
+}
+
+.meal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.meal-photo {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-label {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  color: black;
+}
+
+.badge-vegetarian {
+  background-color: #28c347;
+}
+
+.badge-vegan {
+  background-color: #4cc415;
+}
+
+.badge-paleo {
+  background-color: #f4b822;
+}
+
+.card-body h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.meal-info {
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.all-recipes a {
+  color: #f56a07;
+  font-weight: 600;
+}
+
+.all-recipes a:hover {
+  i {
+    animation: icon 0.5s ease infinite;
+  }
+}
+
+@keyframes icon {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.sec-2 {
+  background-color: rgb(248, 236, 211);
+  padding: 0 50px;
+}
+
+.testimonial-item {
+  margin-bottom: 40px;
+}
+
+.testimonial-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1c1c1c;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  color: #999;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 60px 20px 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.brand-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  color: #666;
+  font-size: 1.3rem;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #e67e22;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #e67e22;
+}
+
+.contact-info {
+  color: #666;
+  line-height: 1.8;
+}
+
+.contact-info a {
+  color: #666;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #e67e22;
+}
+
+.copyright {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  color: #666;
+  font-size: 0.9rem;
+}
